@@ -4,6 +4,6 @@ jdk:
 
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -y octave3.8.2
+  - sudo apt-get install -y octave3.8
   
 script: ./run-tests.sh
